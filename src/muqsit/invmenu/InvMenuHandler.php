@@ -48,9 +48,6 @@ class InvMenuHandler implements Listener{
 		$plugin->getServer()->getPluginManager()->registerEvents(new InvMenuHandler(), $plugin);
 	}
 
-	private function __construct(){
-	}
-
 	/**
 	 * @param InventoryTransactionEvent $event
 	 * @priority NORMAL
